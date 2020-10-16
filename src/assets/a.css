@@ -1,0 +1,179 @@
+body {
+        margin: 0;
+        background-image: url("./1.jpg");
+        height:944px;
+        width:100%;
+    }
+    #app{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .container{
+        /*background-image: url("assets/1.jpg");*/
+        width: 1200px;
+        margin:0 auto;
+    }
+    .nav{
+      /*display:flex;*/
+      /*background: bisque;*/
+      height:100px;
+      flex-direction: row;
+    }
+    .hu {
+        display: flex;
+        flex-direction: row;
+    }
+    .logo{
+        margin-top:15px;
+      float: left;
+      display: block;
+      background-image: url("./pagelogo.png");
+      width:496px;
+      height:73px;
+      text-indent: -99999px;
+    }
+    .logo1{
+      width: 454px;
+      height: 51px;
+      float:right;
+      margin-top:30px;
+    }
+    .container .nav .text1{
+        width: 400px;
+        margin-top: 100px;
+        margin-left: 250px;
+    }
+    .logintop{
+        text-decoration:none;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        width:400px;
+        height:80px;
+        background-color: ghostwhite;
+        margin-top:150px;
+        margin-left:100px;
+        border-top-left-radius: 5px;
+        border-top-right-radius:5px;
+        /*justify-content: center;*/
+        align-items: center;
+    }
+    .btn:hover {
+        background-color: #2579d1;
+    }
+    .btn:focus {
+        background-color: #00ff00;
+    }
+    .btn:active {
+        background-color: #000000;
+    }
+    .loginfrist1{
+        width:50px;
+        margin-left:60px;
+    }
+    .logocode{
+        font-size:20px;
+        margin-left:25px;
+    }
+    .picture{
+        width: 450px;
+        height: 355px;
+        margin-top: 200px;
+        margin-left:100px;
+    }
+    .tab2{
+        float: left;
+        display: flex;
+        width: 600px;
+        height:700px;
+    }
+    .tab3{
+        display: flex;
+        float: right;
+        width:600px;
+        height:700px;
+        display: flex;
+        flex-direction: column;
+        /*border-bottom-left-radius:5px;*/
+        /*border-bottom-right-radius:5px;*/
+        /*border-top-left-radius: 5px;*/
+        /*border-top-right-radius:5px;*/
+    }
+    .loginbutton{;
+        background-color: #eeeeee;
+        display: flex;
+        flex-direction: column;
+        width:350px;
+        height:380px;
+        margin-left:100px;
+        padding-right:25px;
+        padding-left:25px;
+        border-bottom-left-radius:5px;
+        border-bottom-right-radius:5px;
+    }
+    .name{
+        /*box-shadow: 5px 5px 3px #888888;*/
+        border:1px solid #c9c3c3;
+        background-color: ghostwhite;
+        margin-top:40px;
+        font-size:15px;
+        border-bottom-left-radius:5px;
+        border-bottom-right-radius:5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius:5px;
+        height:40px;
+        padding-left:12px;
+    }
+    .password{
+        /*box-shadow: 5px 5px 3px #888888;*/
+        border:1px solid #c9c3c3;
+        background-color: ghostwhite;
+        margin-top:20px;
+        font-size:15px;
+        height:40px;
+        border-bottom-left-radius:5px;
+        border-bottom-right-radius:5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius:5px;
+        padding-left:12px;
+    }
+    .rempass{
+        display: flex;
+        flex-direction: row;
+    }
+    .xuanze{
+        margin-top:10px;
+    }
+    .testone{
+        font-size:10px;
+    }
+    .but{
+        /*box-shadow: 5px 5px 3px #888888;*/
+        border:0;
+        color: azure;
+        display: flex;
+        height:50px;
+        width:120px;
+        justify-content: center;
+        margin-top:20px;
+        margin-left:115px;
+        background-color: deepskyblue;
+        border-bottom-left-radius:5px;
+        border-bottom-right-radius:5px;
+        border-top-left-radius:5px;
+        border-top-right-radius:5px;
+    }
+    .ttt{
+        font-size: 3px;
+        margin:0;
+        text-align: center;
+        margin-top: 70px;
+        color: darkgray;
+    }
+    .yyy{
+        font-size: 3px;
+        margin:0;
+        text-align: center;
+        color: darkgray;
+    }

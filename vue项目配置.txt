@@ -1,0 +1,4 @@
+安装webstorm
+先要安装node.js
+在安装vue脚手架
+创建空的vue项目：cd(创建目录)--vue create--选三
